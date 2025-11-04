@@ -1,4 +1,4 @@
-# Load a checkpoint and visualize embeddings with t-SNE.
+#Load a checkpoint and visualize embeddings with t-SNE.
 
 import argparse, torch, os, json
 import matplotlib.pyplot as plt

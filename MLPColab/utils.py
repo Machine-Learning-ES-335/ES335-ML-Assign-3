@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+
 import torch, os
 import matplotlib.pyplot as plt
 

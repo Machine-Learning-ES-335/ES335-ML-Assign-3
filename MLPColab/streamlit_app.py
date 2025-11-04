@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+# Streamlit app 
+# - War and Peace
+# - Linux kernel
+
 # This app loads saved checkpoints from models/<dataset>/best.pt (or final.pt)
 # and lets you generate next-k words using temperature sampling.
 

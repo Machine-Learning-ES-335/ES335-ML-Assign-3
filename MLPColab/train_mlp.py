@@ -1,10 +1,12 @@
+#!/usr/bin/env python3
 #Train a word-level MLP next-word predictor and save checkpoints.
 
 import argparse, os, json
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
-from dataset import NextWordDataset
+from dataset import NextWordDataset as NextWordDataset
+
 from utils import save_checkpoint, plot_losses
 from tqdm import tqdm
 
