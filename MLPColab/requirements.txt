@@ -1,0 +1,10 @@
+
+torch>=2.0
+torchvision
+numpy
+pandas
+matplotlib
+scikit-learn
+tqdm
+streamlit
+pyngrok
